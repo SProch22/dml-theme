@@ -1,0 +1,21 @@
+{
+  "name": "dml-theme",
+  "displayName": "DML_Theme",
+  "description": "theme for dml",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "dml-txt-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dml-txt-theme-color-theme.json"
+      }
+    ]
+  }
+}
